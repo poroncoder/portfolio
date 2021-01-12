@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poron Corder</title>
+    <meta name="description" content="Poronのポートフォリオ">
+    <!-- favicon -->
+    <link rel="stylesheet" href="favicon.ico">
+    <!-- reset css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+    <!-- drawer css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+
+    <!-- wow -->
+    <script src="/js/wow.min.js"></script>
+    <link rel="stylesheet" href="/css/animate.css">
+    <!-- original -->
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+
+<body class="drawer drawer--right">
+    <!--====================Header============================-->
+    <header id="js-header" class="header">
+        <div class="header-inner">
+            <button type="button" class="drawer-toggle drawer-hamburger is-sp">
+                <span class="sr-only">toggle navigation</span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <nav class="drawer-nav header-nav is-pc" role="navigation">
+                <ul class="drawer-menu header-nav__list">
+                    <li class="header-nav__list-item"><a class="header-nav__list-link" href="/index.html">Home</a></li>
+                    <li class="header-nav__list-item"><a class="header-nav__list-link" href="about.html">About</a></li>
+                    <li class="header-nav__list-item"><a class="header-nav__list-link" href="gallery.html">Gallery</a></li>
+                    <li class="header-nav__list-item"><a class="header-nav__list-link" href="music.html">Music</a></li>
+                    <li class="header-nav__list-item"><a class="header-nav__list-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- to top -->
+    <div id="wrap"></div>
+    <main>
+
+        <!-- *******************************************title**************************************** -->
+        <div class="sub-header contact-header">
+            <h1 class="page-title contact-title">Contact</h1>
+        </div>
+
+        <!-- *******************************************Gallery**************************************** -->
+
+        <section class="contact last-contact">
+            <div class="inner">
+                <div class="contact__block wow fadeInUp">
+                    <form id="js-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaS10LzIRYMFABA-bkRROOKaMeBrj48UHcDNRBzPZQOsvtkg/formResponse" method="post" class="contact__form">
+
+                        <p class="contact__subtitle">お仕事に関するご依頼などは<br class="is-sp">下記フォームより承っております。<br /> お送り頂きますお問い合わせ内容を確認次第、
+                            <br class="is-sp">折り返しご連絡させて頂きます。<br />
+                            <span class="important">※は必須項目です。</span>
+                        </p>
+                        <dl class="contact__info">
+                            <dt class="contact__required">お名前<span class="important">※</span></dt>
+                            <dd class="contact__answer"><span class="contact__answer-form your-name"><input class="contact__input" type="text" name="entry.1163707867" value="" size="40" required></span> </dd>
+                        </dl>
+                        <dl class="contact__info">
+                            <dt class="contact__required">メールアドレス<span class="important">※</span></dt>
+                            <dd class="contact__answer"><span class="contact__answer-form your-email"><input class="contact__input" type="email" name="entry.961431067" value="" size="40" required></span></dd>
+                        </dl>
+                        <dl class="contact__info">
+                            <dt class="contact__required">TEL<span class="important">※</span></dt>
+                            <dd class="contact__answer"><span class="contact__answer-form your-tel"><input class="contact__input" type="tel" name="entry.201355820" value="" size="40" required></span></dd>
+                        </dl>
+                        <dl class="contact__info">
+                            <dt class="contact__required">お問合せ内容<span class="important">※</span></dt>
+                            <dd class="contact__answer"><span class="contact__answer-form your-message"><textarea class="contact__input" name="entry.1842476386" cols="40" rows="10" required></textarea></span> </dd>
+                        </dl>
+
+                        <div class="contact__button">
+                            <button id="js-submit" class="contact__submit button" value="送信">送信</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- *******************************************FOOTER**************************************** -->
+    <footer class="thanks">
+        <div class="inner">
+            <div class="contact thank-you">
+                <h2 class="contact__title center-title">Thank you for visiting</h2>
+                <p class="contact__text">下記のボタンより<br class="is-sp">TOPページに戻れます。</p>
+
+                <a href="./index.html" class="contact__btn-link">TOPページへ戻る</a>
+
+                <div class="sns">
+                    <ul class="sns__icons">
+                        <li class="sns__icon"><a href="https://twitter.com/Poron_web" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="sns__icon"><a href="https://www.instagram.com/ellieart24/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="sns__icon"><a href="https://soundcloud.com/user-401339074" target="_blank"><i class="fab fa-soundcloud"></i></a></li>
+                    </ul>
+                </div>
+                <p class="footer__copyright"><small lang="en">© 2020 Poron All rights reserved</small></p>
+            </div>
+        </div>
+    </footer>
+    <!-- totop -->
+    <p class="page-top"><a href="#wrap"><i class="fas fa-chevron-up"></i></a></p>
+</body>
+
+</html>
